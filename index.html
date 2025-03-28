@@ -1,38 +1,312 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jalwa Game Login</title>
-    <!-- Inline critical CSS -->
+    
+    <!-- Primary SEO Meta Tags -->
+    <title>Jalwa Game Login | Official Registration Portal</title>
+    <meta name="description" content="Login to Jalwa Game for high-payout opportunities and exciting gameplay. Use invitation code 26615111212 to register and start winning today!">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large">
+    <meta name="keywords" content="jalwa game login, jalwa game register, invitation code, gaming portal, jalwa login, ok win">
+    
+    <!-- Open Graph / Facebook Meta Tags -->
+    <meta property="og:locale" content="en_US">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Jalwa Game Login | Official Portal">
+    <meta property="og:description" content="Access Jalwa Game for the best gaming experience. Register using invitation code 26615111212!">
+    <meta property="og:url" content="https://jalwa-game-login.com/">
+    <meta property="og:site_name" content="Jalwa Game">
+    <meta property="og:image" content="https://jalwaangame.com/wp-content/uploads/2025/03/jalwa-game-login-300x300.png">
+    
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Jalwa Game Login">
+    <meta name="twitter:description" content="Access Jalwa Game for high-payout gaming. Register now!">
+    <meta name="twitter:image" content="https://jalwaangame.com/wp-content/uploads/2025/03/jalwa-game-login-300x300.png">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://jalwa-game-login.com/">
+    
+    <!-- Favicon -->
+    <link rel="icon" href="favicon.ico">
+    
+    <!-- Structured Data for SEO -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "Jalwa Game Login",
+      "url": "https://jalwa-game-login.com/",
+      "description": "Official portal for Jalwa Game login and registration with invitation code 26615111212",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://jalwa-game-login.com/?s={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    }
+    </script>
+    
+    <!-- Inline CSS for fast loading -->
     <style>
-        /* Critical CSS goes here - this loads first */
-        body {
+        /* Base Styles */
+        * {
             margin: 0;
             padding: 0;
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', sans-serif;
+            box-sizing: border-box;
         }
-        .hero {
-            height: 100vh;
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f5f7fa;
+            text-align: center;
+        }
+        
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        /* Top Bar */
+        .top-bar {
+            background-color: white;
+            text-align: center;
+            padding: 15px 0;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        
+        .top-buttons {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+        }
+        
+        .top-button {
+            display: inline-block;
+            background-color: #0066cc;
+            color: white;
+            font-size: 16px;
+            font-weight: bold;
+            padding: 12px 30px;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            min-width: 120px;
+        }
+        
+        .top-button:hover {
+            background-color: #0055aa;
+            transform: translateY(-2px);
+            box-shadow: 0 6px 8px rgba(0,0,0,0.15);
+        }
+        
+        /* Header */
+        header {
+            background-color: white;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            padding: 15px 0;
+            margin-top: 10px;
+        }
+        
+        .logo {
             display: flex;
             align-items: center;
             justify-content: center;
-            flex-direction: column;
-            background-color: #f5f5f5;
+            margin-bottom: 10px;
+        }
+        
+        .logo img {
+            height: 60px;
+            width: auto;
+            margin-right: 10px;
+        }
+        
+        h1 {
+            font-size: 28px;
+            color: #1a202c;
+            margin: 15px 0;
+        }
+        
+        /* Main Content */
+        .main-image {
+            margin: 20px auto;
+            max-width: 100%;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        
+        .button-container {
+            text-align: center;
+            margin: 25px auto;
+        }
+        
+        .cta-button {
+            display: inline-block;
+            background-color: #0066cc;
+            color: white;
+            font-size: 18px;
+            font-weight: bold;
+            padding: 15px 30px;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            min-width: 200px;
+        }
+        
+        .cta-button:hover {
+            background-color: #0055aa;
+            transform: translateY(-2px);
+            box-shadow: 0 6px 8px rgba(0,0,0,0.15);
+        }
+        
+        .game-info {
+            margin: 20px auto;
+            width: 100%;
+            max-width: 600px;
+            border-collapse: collapse;
+        }
+        
+        .game-info td {
+            padding: 10px;
+            border: 1px solid #e2e8f0;
+            text-align: left;
+        }
+        
+        .game-info tr:nth-child(even) {
+            background-color: #f8fafc;
+        }
+        
+        .game-info tr td:first-child {
+            font-weight: bold;
+            width: 40%;
+        }
+        
+        .description {
+            margin: 20px auto;
+            max-width: 800px;
+            font-size: 16px;
+            line-height: 1.7;
+        }
+        
+        /* Footer */
+        footer {
+            background-color: #1a202c;
+            color: white;
+            padding: 20px 0;
+            margin-top: 40px;
+        }
+        
+        .footer-links {
+            margin-top: 10px;
+        }
+        
+        .footer-links a {
+            color: #cbd5e0;
+            margin: 0 10px;
+            text-decoration: none;
+        }
+        
+        .footer-links a:hover {
+            text-decoration: underline;
+        }
+        
+        /* Responsive */
+        @media (max-width: 768px) {
+            .container {
+                padding: 10px;
+            }
+            
+            h1 {
+                font-size: 24px;
+            }
+            
+            .top-buttons {
+                gap: 20px;
+            }
+            
+            .top-button {
+                padding: 10px 20px;
+                min-width: 100px;
+            }
+            
+            .cta-button {
+                width: 80%;
+                max-width: 300px;
+                padding: 12px;
+            }
         }
     </style>
-    <!-- Preload important assets -->
-    <link rel="preload" href="styles.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-    <noscript><link rel="stylesheet" href="styles.css"></noscript>
 </head>
+
 <body>
-    <main class="hero">
-        <h1>Welcome to Jalwa Game</h1>
-        <div class="login-container">
-            <!-- Login form content -->
+    <div class="top-bar">
+        <div class="top-buttons">
+            <a href="https://www.jalwagame.me/#/register?invitationCode=26615111212" class="top-button">Login</a>
+            <a href="https://www.jalwagame.me/#/register?invitationCode=26615111212" class="top-button">Register</a>
         </div>
+    </div>
+
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="https://jalwaangame.com/wp-content/uploads/2025/03/jalwa-game-login-300x300.png" alt="Jalwa Game Logo" width="60" height="60">
+                <h1>Jalwa Game Login</h1>
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        <img class="main-image" src="https://jalwaangame.com/wp-content/uploads/2025/03/jalwa-game-login-300x300.png" alt="Jalwa Game Interface" width="300" height="300">
+        
+        <div class="button-container">
+            <a href="https://www.jalwagame.me/#/register?invitationCode=26615111212" class="cta-button">Register on Jalwa</a>
+        </div>
+        
+        <table class="game-info">
+            <tbody>
+                <tr>
+                    <td>Game Name</td>
+                    <td>Jalwa Game</td>
+                </tr>
+                <tr>
+                    <td>Gameplay Mode</td>
+                    <td>Single &amp; Multiplayer</td>
+                </tr>
+                <tr>
+                    <td>Invitation Code</td>
+                    <td><strong>26615111212</strong></td>
+                </tr>
+                <tr>
+                    <td>Platform</td>
+                    <td>OK Win</td>
+                </tr>
+                <tr>
+                    <td>Winning Potential</td>
+                    <td>High-Payout Games</td>
+                </tr>
+            </tbody>
+        </table>
+        
+        <p class="description">
+            Jalwa Game provides an unmatched gaming experience with high-payout opportunities and engaging gameplay! Whether you prefer solo challenges or multiplayer action, the Jalwa Game Login platform ensures smooth performance and thrilling competition. Get ready to test your skills, enjoy exciting features, and unlock big wins by logging into Jalwa Game today!
+        </p>
     </main>
-    <!-- Deferred non-critical JavaScript -->
-    <script defer src="script.js"></script>
+
+    <footer>
+        <div class="container">
+            <p>Copyright © 2025 Jalwa Game Login. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Use</a>
+                <a href="#">About Us</a>
+                <a href="#">Contact</a>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
